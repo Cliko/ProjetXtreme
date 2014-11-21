@@ -4,7 +4,7 @@
 
         public function uploadFail(){
 
-            $submit = new upload();
+            $submit = new uploadFile();
             $submitTest = $submit->uploadFile();
 
             if($submitTest == ""){
