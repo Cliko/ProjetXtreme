@@ -2,8 +2,8 @@
 
 ###Fonctionnalités générales
 - Authentification : Inscription / Connexion / Déconnexion
-- réinitialiser le mot de passe
-- modifier le mot de passe 
+- Réinitialiser le mot de passe
+- Modifier le mot de passe 
 - Télécharger un élément hébergé
 - Promotions du service sur les réseaux sociaux
 - Contacter le support technique
