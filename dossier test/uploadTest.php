@@ -4,6 +4,13 @@
 
         public function uploadFail(){
 
+            $submit = new upload();
+            $submitTest = $submit->uploadFile();
+
+            if($submitTest == ""){
+                echo "NULL MAHI";
+            }
+
         }
 
     }
