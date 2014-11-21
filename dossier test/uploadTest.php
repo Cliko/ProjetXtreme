@@ -4,8 +4,8 @@
 
         public function uploadFail(){
 
-            $submit = new uploadFile();
-            $submitTest = $submit->uploadFile();
+            $submit = new showForm();
+            $submitTest = $submit->showForm();
 
             if($submitTest == ""){
                 echo "NULL MAHI";
