@@ -7,6 +7,8 @@
     <label>Email de vos contacts</label><input type="text" name="email_all_contact" />
     <?php /* Sinon */ ?>
     <label>Email de votre contact</label><input type="text" name="email_contact" />
+    <?php /* si authentifié : Déterminer la pérennité d’un élément envoyé */ ?>
+    <label>Indiquer la pérennité du fichier</label><input type="datetime" name="perennite_files" value="">
     <label>Message</label>
     <textarea cols="10" rows="4" name="message"></textarea>
     <input type="submit" value="Envoyer" />
