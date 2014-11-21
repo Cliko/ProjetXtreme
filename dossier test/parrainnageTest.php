@@ -8,16 +8,23 @@
 
 class parrainnageTest extends PHPUnit_Framework_TestCase {
 
-    public function testEnvoiMail($mail)
+    public function testEnvoiMail()
     {
-        $test = new parrainnage();
-        $testmail = $test->envoiMail();
-        if(filter_var($testmail, FILTER_VALIDATE_EMAIL)) {
-
-            $verification_code = chr(rand(32, 126));
-            return $verification_code;
+        $recup = new parrainnage();
+        $array = array("benjamin@test.fr","benjamin@test","benjamin");
+        foreach($array as $test){
+            $recup->envoiMail($test);
         }
-        else {
+        
+
+    }
+    public function ajoutParrainage($verification_code)
+    {
+        $test = new inscription($verification_code);
+        $sql = "SELECT parrainage_code = ".$verification_code."";
+        if($test == ){
+
+        } else {
             return "Ce n'est pas une adresse mail";
         }
     }
