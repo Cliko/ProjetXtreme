@@ -5,6 +5,7 @@
         <input type="password" name="login_password" value="Votre mot de passe" />
         <input type="submit" name="login_valider" value="Valider" />
     </form>
+    <p><a href="">Réinitialiser le mot de passe</a></p>
 </div>
 
 <div class="signin">
