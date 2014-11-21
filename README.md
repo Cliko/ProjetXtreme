@@ -1,12 +1,12 @@
 ###Projet XP
 
 ##Fonctionnalités générales
-Authentification : Inscription / Connexion / Déconnexion
-réinitialiser le mot de passe
-modifier le mot de passe 
-Télécharger un élément hébergé
-Promotions du service sur les réseaux sociaux
-Contacter le support technique
+#Authentification : Inscription / Connexion / Déconnexion
+#réinitialiser le mot de passe
+#modifier le mot de passe 
+#Télécharger un élément hébergé
+#Promotions du service sur les réseaux sociaux
+#Contacter le support technique
 
 ##Fonctionnalités pour “authentifiés”
 Limite de la taille des fichiers à 1Go.
