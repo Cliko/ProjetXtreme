@@ -5,6 +5,7 @@
 
 .idea/scopes/scope_settings.xml
 
+<<<<<<< HEAD
 .idea/.name
 
 .idea/encodings.xml
@@ -16,3 +17,6 @@
 .idea/vcs.xml
 
 .idea/misc.xml
+=======
+.idea/*
+>>>>>>> FETCH_HEAD
