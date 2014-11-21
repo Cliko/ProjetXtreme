@@ -6,3 +6,4 @@
     <li>Email envoyé : <?php echo "email_send"; ?></li>
     <li>Date d'expiration : <?php echo "date_time"; ?></li>
 </ul>
+
