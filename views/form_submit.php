@@ -3,6 +3,9 @@
 <section class="form_send"><p>Votre fichier a été uploadé avec succès, veuillez renseigner le formulaire ci-dessous :</p>
 <form action=""  method="">
     <label>Votre email</label><input type="text" name="my_email" />
+    <?php /* Si authentifié donne droit à envoyer à plusieurs emails */ ?>
+    <label>Email de vos contacts</label><input type="text" name="email_all_contact" />
+    <?php /* Sinon */ ?>
     <label>Email de votre contact</label><input type="text" name="email_contact" />
     <label>Message</label>
     <textarea cols="10" rows="4" name="message"></textarea>
