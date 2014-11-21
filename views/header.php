@@ -8,8 +8,5 @@
 </head>
 <body>
 <div>
-<br/>
-<form action="">
-	<a href=""><h1>Hébergez votre fichier !</h1></a>
-</form>
+
 </div>
